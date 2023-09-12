@@ -74,3 +74,27 @@ Nama : Raden Rizki
 ![Screenshot hello_world](docs/kode_program_for_break_continue_2.png)
 
 ![Screenshot hello_world](docs/hasil_running_for_break_continue_2.png)
+
+#
+
+<h3>Tugas Praktikum</h3>
+
+#
+
+<h4>Kode Program Perulangan</h4>
+
+![Screenshot hello_world](docs/kode_program_tugas.png)
+
+<h4>Output Perulangan</h4>
+
+![Screenshot hello_world](docs/hasil_running_tugas.png)
+
+<h4>Kode Program Switch Case</h4>
+
+![Screenshot hello_world](docs/kode_program_switch_case.png)
+
+<h4>Output Swith Case</h4>
+
+![Screenshot hello_world](docs/hasil_running_switch_case.png)
+
+- Pada swith case diatas meskipun nilai dari a memenuhi case 1, namun pada case 1 ini tidak ada break, sehingga case 2 juga dijalankan meskipun false, dan berhenti karena pada case 2 ini menemukan semicolon (;).
