@@ -42,12 +42,12 @@ Nama : Raden Rizki
 
 - Dari Error diatas, saya coba untuk running menggunakan web Chrome
 
-![Screenshot flutter](docs/run_flutter_project_solved.png)
+![Screenshot flutter](docs/run_flutter_project_error_solved.png)
 
 ![Screenshot flutter](docs/run_flutter_project.png)
 
 #
 
-<h3>Praktikum 2: Membuat Repository GitHub dan Laporan Praktikum</h3>
+<h3>Praktikum 3: Membuat Repository GitHub dan Laporan Praktikum</h3>
 
 #
