@@ -72,9 +72,9 @@ Nama : Raden Rizki
 
 - Import image_widget.dart di main.dart
 
-![Screenshot flutter](docs/kode_program_import_image_widget.png)
+![Screenshot flutter](docs/kode_program_image_widget_import.png)
 
-![Screenshot flutter](docs/kode_program_call_functions_text_widget.png)
+![Screenshot flutter](docs/kode_program_call_functions_image_widget.png)
 
 - Output
 
