@@ -154,7 +154,7 @@ Nama : Raden Rizki
 
 <h4>Langkah 6: Date and Time Pickers</h4>
 
-[Kode Program main.dart Date and Time Pickers](src/hello_world/lib/basic_widgets/date_time_pickers.dart)
+[Kode Program Date and Time Pickers](src/hello_world/lib/basic_widgets/date_time_pickers.dart)
 
 - Output
 
@@ -162,6 +162,47 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/output_date_time_pickers_2.png)
 
+<h3>Praktikum 4: Langkah 3-6 dengan Import Widget di main.dart</h3>
+
+<h4>Langkah 3: Scaffold Widget</h4>
+
+[Kode Program Scaffold Widget](src/hello_world/lib/basic_widgets/scafold_widget.dart)
+
+![Screenshot flutter](docs/import_scafold_widget.png)
+
+- Output
+
+![Screenshot flutter](docs/output_scafold_widget_1.png)
+
+<h4>Langkah 4: Dialog Widget</h4>
+
+[Kode Program Scaffold Widget](src/hello_world/lib/basic_widgets/dialog_widget.dart)
+
+![Screenshot flutter](docs/import_dialog_widget.png)
+
+- Output
+
+![Screenshot flutter](docs/output_dialog_widget_3.png)
+
+<h4>Langkah 5: Input dan Selection Widget</h4>
+
+![Screenshot flutter](docs/kode_program_input_1.png)
+
+![Screenshot flutter](docs/import_input_widget.png)
+
+- Output
+
+![Screenshot flutter](docs/output_input_3.png)
+
+<h4>Langkah 6: Date and Time Pickers</h4>
+
+[Kode Program Date and Time Pickers](src/hello_world/lib/basic_widgets/date_time_pickers_widget.dart)
+
+![Screenshot flutter](docs/import_date_time_pickers_widget.png)
+
+- Output
+
+![Screenshot flutter](docs/output_date_time_pickers_3.png)
 #
 
 <h3>Tugas Praktikum</h3>

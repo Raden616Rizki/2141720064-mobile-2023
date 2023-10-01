@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/basic_widgets/date_time_pickers_widget.dart';
 
 void main() {
-  runApp(const DateTimePickersWidget());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
