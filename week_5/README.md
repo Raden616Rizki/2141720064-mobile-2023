@@ -96,3 +96,74 @@ Nama : Raden Rizki
 
 <h4>Langkah 1: Cupertino Button dan Loading Bar</h4>
 
+- 
+
+![Screenshot flutter](docs/kode_program_loading_cupertino.png)
+
+![Screenshot flutter](docs/kode_program_import_loading_cupertino_error.png)
+
+- Output
+
+![Screenshot flutter](docs/run_button_cupertino_error.png)
+
+- Saya coba menjalankan class ButtonCupertinoWidget langsung dalam function main file main.dart
+
+![Screenshot flutter](docs/kode_program_import_loading_cupertino.png)
+
+- Output
+
+![Screenshot flutter](docs/output_loading_cupertino.png)
+
+<h4>Langkah 2: Floating Action Button (FAB)</h4>
+
+![Screenshot flutter](docs/kode_program_fab.png)
+
+![Screenshot flutter](docs/kode_program_import_fab.png)
+
+- Output
+
+![Screenshot flutter](docs/output_fab.png)
+
+<h4>Langkah 3: Scaffold Widget</h4>
+
+[Kode Program main.dart Scaffold Widget](src/hello_world/lib/main_scafold_widget.dart)
+
+- Output
+
+![Screenshot flutter](docs/output_scafold_widget.png)
+
+<h4>Langkah 4: Dialog Widget</h4>
+
+[Kode Program main.dart Scaffold Widget](src/hello_world/lib/main_dialog_widget.dart)
+
+- Output
+
+![Screenshot flutter](docs/output_dialog_widget_1.png)
+
+![Screenshot flutter](docs/output_dialog_widget_2.png)
+
+<h4>Langkah 5: Input dan Selection Widget</h4>
+
+![Screenshot flutter](docs/kode_program_input.png)
+
+- Output
+
+![Screenshot flutter](docs/output_input_1.png)
+
+![Screenshot flutter](docs/output_input_2.png)
+
+<h4>Langkah 6: Date and Time Pickers</h4>
+
+[Kode Program main.dart Date and Time Pickers](src/hello_world/lib/basic_widgets/date_time_pickers.dart)
+
+- Output
+
+![Screenshot flutter](docs/output_date_time_pickers_1.png)
+
+![Screenshot flutter](docs/output_date_time_pickers_2.png)
+
+#
+
+<h3>Tugas Praktikum</h3>
+
+#

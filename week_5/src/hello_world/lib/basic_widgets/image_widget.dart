@@ -11,7 +11,8 @@ class MyImageWidget extends StatelessWidget {
       height: 320.0,
       child: Image(
         image: AssetImage("polinema_logo.png"),
-        fit: BoxFit.contain, // Menyesuaikan rasio gambar dengan ruang yang tersedia
+        fit: BoxFit
+            .contain, // Menyesuaikan rasio gambar dengan ruang yang tersedia
       ),
     );
   }

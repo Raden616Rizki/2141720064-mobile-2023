@@ -9,16 +9,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("Contoh TextField")),
-        body: const TextField(
-          obscureText: false,
-          decoration: InputDecoration(
-            border: OutlineInputBorder(),
-            labelText: 'Nama',
-          ),
-        ),
+        body: MyLayout(),
       ),
     );
   }
@@ -53,7 +46,7 @@ showAlertDialog(BuildContext context) {
   // set up the AlertDialog
   AlertDialog alert = AlertDialog(
     title: const Text("Raden Rizki"),
-    content: const Text("NIM: 2141720064"),
+    content: const Text("2141720064"),
     actions: [
       okButton,
     ],
