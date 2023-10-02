@@ -126,46 +126,6 @@ Nama : Raden Rizki
 
 <h4>Langkah 3: Scaffold Widget</h4>
 
-[Kode Program main.dart Scaffold Widget](src/hello_world/lib/main_scafold_widget.dart)
-
-- Output
-
-![Screenshot flutter](docs/output_scafold_widget.png)
-
-<h4>Langkah 4: Dialog Widget</h4>
-
-[Kode Program main.dart Scaffold Widget](src/hello_world/lib/main_dialog_widget.dart)
-
-- Output
-
-![Screenshot flutter](docs/output_dialog_widget_1.png)
-
-![Screenshot flutter](docs/output_dialog_widget_2.png)
-
-<h4>Langkah 5: Input dan Selection Widget</h4>
-
-![Screenshot flutter](docs/kode_program_input.png)
-
-- Output
-
-![Screenshot flutter](docs/output_input_1.png)
-
-![Screenshot flutter](docs/output_input_2.png)
-
-<h4>Langkah 6: Date and Time Pickers</h4>
-
-[Kode Program Date and Time Pickers](src/hello_world/lib/basic_widgets/date_time_pickers.dart)
-
-- Output
-
-![Screenshot flutter](docs/output_date_time_pickers_1.png)
-
-![Screenshot flutter](docs/output_date_time_pickers_2.png)
-
-<h3>Praktikum 4: Langkah 3-6 dengan Import Widget di main.dart</h3>
-
-<h4>Langkah 3: Scaffold Widget</h4>
-
 [Kode Program Scaffold Widget](src/hello_world/lib/basic_widgets/scafold_widget.dart)
 
 ![Screenshot flutter](docs/import_scafold_widget.png)
@@ -203,8 +163,129 @@ Nama : Raden Rizki
 - Output
 
 ![Screenshot flutter](docs/output_date_time_pickers_3.png)
+
+![Screenshot flutter](docs/output_date_time_pickers_2.png)
+
 #
 
-<h3>Tugas Praktikum</h3>
+<h3>Tugas Praktikum: Codelabs: Your first Flutter app</h3>
 
 #
+
+<h4>A. Menambahkan tombol</h4>
+
+<h4>1. Meluncurkan Aplikasi</h4>
+
+- Output Browser
+
+![Screenshot flutter](docs/output_browser.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_1.jpg)
+
+<h4>2. Hot Reload Pertama</h4>
+
+- Console
+
+![Screenshot flutter](docs/console_hot_reload.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/hot_reload.gif)
+
+<h4>3. Menambahkan Tombol</h4>
+
+![Screenshot flutter](docs/console_button_pressed.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/button_pressed.gif)
+
+<h4>B. Memperindah tampilan aplikasi</h4>
+
+<h4>1. Mengekstrak widget</h4>
+
+- Klik Refactor
+
+![Screenshot flutter](docs/refactor.png)
+
+- Pilih Extract Widget
+
+![Screenshot flutter](docs/ekstrak_widget.png)
+
+- Beri nama widget
+
+![Screenshot flutter](docs/widget_name_big_card.png)
+
+![Screenshot flutter](docs/kode_program_big_card.png)
+
+- Big Card Class
+
+![Screenshot flutter](docs/big_card_class.png)
+
+<h4>2. Menambahkan Kartu</h4>
+
+- Big Card Class
+
+![Screenshot flutter](docs/kode_program_big_card_1.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_2.jpg)
+
+<h4>3. Tema dan gaya</h4>
+
+- Big Card Class
+
+![Screenshot flutter](docs/kode_program_big_card_2.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_3.jpg)
+
+- Color Scheme
+
+![Screenshot flutter](docs/color_scheme.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_4.jpg)
+
+<h4>4. TextTheme</h4>
+
+- Big Card Class
+
+![Screenshot flutter](docs/kode_program_big_card_3.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_5.jpg)
+
+<h4>5. Meningkatkan aksesibilitas</h4>
+
+- Big Card Class
+
+![Screenshot flutter](docs/kode_program_big_card_4.png)
+
+[Output Semantic](docs/output_semantic.mp4)
+
+<h4>6. Menempatkan UI di tengah</h4>
+
+![Screenshot flutter](docs/kode_program_main_axis.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_6.jpg)
+
+![Screenshot flutter](docs/kode_program_center.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_7.jpg)
+
+![Screenshot flutter](docs/kode_program_sized_box.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_8.jpg)
