@@ -289,3 +289,28 @@ Nama : Raden Rizki
 - Output Smartphone
 
 ![Screenshot flutter](docs/output_smartphone_8.jpg)
+
+<h4>C. Menambahkan Fungsi</h4>
+
+<h4>1. Menambahkan logika bisnis</h4>
+
+![Screenshot flutter](docs/kode_program_myappstate.png)
+
+<h4>2. Menambahkan tombol</h4>
+
+![Screenshot flutter](docs/kode_program_row.png)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_9.jpg)
+
+- Kode Program Icon
+
+![Screenshot flutter](docs/kode_program_icon_1.png)
+
+![Screenshot flutter](docs/kode_program_icon_2.png)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_10.gif)
+
