@@ -174,6 +174,8 @@ Nama : Raden Rizki
 
 <h4>A. Menambahkan tombol</h4>
 
+#
+
 <h4>1. Meluncurkan Aplikasi</h4>
 
 - Output Browser
@@ -202,7 +204,11 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/button_pressed.gif)
 
+#
+
 <h4>B. Memperindah tampilan aplikasi</h4>
+
+#
 
 <h4>1. Mengekstrak widget</h4>
 
@@ -290,7 +296,11 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/output_smartphone_8.jpg)
 
+#
+
 <h4>C. Menambahkan Fungsi</h4>
+
+#
 
 <h4>1. Menambahkan logika bisnis</h4>
 
@@ -313,4 +323,50 @@ Nama : Raden Rizki
 - Output smartphone
 
 ![Screenshot flutter](docs/output_smartphone_10.gif)
+
+#
+
+<h4>D. Menambahkan kolom samping navigasi</h4>
+
+#
+
+[Kode Program Generator Page](src/my_gothcha_namer/lib/kode_program_backup/main_generator_page.dart)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_11.jpg)
+
+- Console
+
+![Screenshot flutter](docs/console_selected.png)
+
+<h4>1. Widget stateless versus stateful</h4>
+
+- Stateful widget MyHomePage
+
+![Screenshot flutter](docs/kode_program_stateful_widget.png)
+
+<h4>2. setState</h4>
+
+![Screenshot flutter](docs/kode_program_set_state.png)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_12.gif)
+
+<h4>3. Menggunakan selectedIndex</h4>
+
+![Screenshot flutter](docs/kode_program_selected_index.png)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_13.gif)
+
+<h4>4. Tingkat Respons</h4>
+
+![Screenshot flutter](docs/kode_program_layout_builder.png)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_14.gif)
 
