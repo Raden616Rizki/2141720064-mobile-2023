@@ -370,3 +370,20 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/output_smartphone_14.gif)
 
+#
+
+<h4>E. Menambahkan Halaman Baru</h4>
+
+#
+
+![Screenshot flutter](docs/kode_program_favorites_page.png)
+
+- Merubah class pada case 1
+
+![Screenshot flutter](docs/use_favorites_page.png)
+
+- Output smartphone
+
+![Screenshot flutter](docs/output_smartphone_15.gif)
+
+#
