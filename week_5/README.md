@@ -170,7 +170,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_21.gif)
+![Screenshot flutter](docs/output_smartphone_22.gif)
 
 <h4>Langkah 4: Dialog Widget</h4>
 
@@ -184,7 +184,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_22.gif)
+![Screenshot flutter](docs/output_smartphone_21.gif)
 
 <h4>Langkah 5: Input dan Selection Widget</h4>
 
