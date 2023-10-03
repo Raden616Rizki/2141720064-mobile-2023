@@ -48,7 +48,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_16.png)
+![Screenshot flutter](docs/output_smartphone_16.jpg)
 
 #
 
@@ -72,7 +72,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_17.png)
+![Screenshot flutter](docs/output_smartphone_17.jpg)
 
 <h4>Langkah 2: Image Widget</h4>
 
@@ -98,7 +98,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_18_error.png)
+![Screenshot flutter](docs/output_smartphone_18_error.jpg)
 
 ![Screenshot flutter](docs/error_logo.png)
 
@@ -112,7 +112,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_18.png)
+![Screenshot flutter](docs/output_smartphone_18.jpg)
 
 #
 
@@ -142,7 +142,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_19.png)
+![Screenshot flutter](docs/output_smartphone_19.jpg)
 
 <h4>Langkah 2: Floating Action Button (FAB)</h4>
 
@@ -156,7 +156,7 @@ Nama : Raden Rizki
 
 - Output Smartphone
 
-![Screenshot flutter](docs/output_smartphone_20.png)
+![Screenshot flutter](docs/output_smartphone_20.jpg)
 
 <h4>Langkah 3: Scaffold Widget</h4>
 
