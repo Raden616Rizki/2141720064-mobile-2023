@@ -46,6 +46,10 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/run_flutter_project.png)
 
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_16.png)
+
 #
 
 <h3>Praktikum 3: Menerapkan Widget Dasar</h3>
@@ -65,6 +69,10 @@ Nama : Raden Rizki
 - Output
 
 ![Screenshot flutter](docs/output_text_widgets.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_17.png)
 
 <h4>Langkah 2: Image Widget</h4>
 
@@ -87,6 +95,24 @@ Nama : Raden Rizki
 - Output
 
 ![Screenshot flutter](docs/output_image_widget_size_fixed.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_18_error.png)
+
+![Screenshot flutter](docs/error_logo.png)
+
+![Screenshot flutter](docs/error_logo_1.png)
+
+- Perbaikan pada indentasi pubspec.yaml dan path image pada widget
+
+![Screenshot flutter](docs/perbaikan_1.png)
+
+![Screenshot flutter](docs/perbaikan_2.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_18.png)
 
 #
 
@@ -114,6 +140,10 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/output_loading_cupertino.png)
 
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_19.png)
+
 <h4>Langkah 2: Floating Action Button (FAB)</h4>
 
 ![Screenshot flutter](docs/kode_program_fab.png)
@@ -123,6 +153,10 @@ Nama : Raden Rizki
 - Output
 
 ![Screenshot flutter](docs/output_fab.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_20.png)
 
 <h4>Langkah 3: Scaffold Widget</h4>
 
@@ -134,6 +168,10 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/output_scafold_widget_1.png)
 
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_21.gif)
+
 <h4>Langkah 4: Dialog Widget</h4>
 
 [Kode Program Scaffold Widget](src/hello_world/lib/basic_widgets/dialog_widget.dart)
@@ -144,6 +182,10 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/output_dialog_widget_3.png)
 
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_22.gif)
+
 <h4>Langkah 5: Input dan Selection Widget</h4>
 
 ![Screenshot flutter](docs/kode_program_input_1.png)
@@ -153,6 +195,10 @@ Nama : Raden Rizki
 - Output
 
 ![Screenshot flutter](docs/output_input_3.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_23.gif)
 
 <h4>Langkah 6: Date and Time Pickers</h4>
 
@@ -165,6 +211,10 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/output_date_time_pickers_3.png)
 
 ![Screenshot flutter](docs/output_date_time_pickers_2.png)
+
+- Output Smartphone
+
+![Screenshot flutter](docs/output_smartphone_24.gif)
 
 #
 
