@@ -70,6 +70,18 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/praktikum_1_langkah_13.png)
 
+- Lifecycle state pada langkah 11 dan 13 diatas yaitu initState berguna untuk inisialisasi variabel maupun objek dan menambahkan listener untuk perubahan suatu state sedangkan dispose berguna untuk membersihkan sumber daya yang digunakan oleh scrollController ketika aplikasi sudah ditutup
+
+<h4>Langkah 14: Hasil</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_14.gif)
+
+#
+
+<h3>Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier</h3>
+
+#
+
 <h4>Langkah 14: Hasil</h4>
 
 ![Screenshot flutter](docs/praktikum_1_langkah_14.gif)
