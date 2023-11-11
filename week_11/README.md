@@ -82,6 +82,38 @@ Nama : Raden Rizki
 
 #
 
-<h4>Langkah 14: Hasil</h4>
+<h4>Langkah 1: Buat file plan_provider.dart</h4>
 
-![Screenshot flutter](docs/praktikum_1_langkah_14.gif)
+![Screenshot flutter](docs/praktikum_2_langkah_1.png)
+
+<h4>Langkah 2: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_2.png)
+
+<h4>Langkah 3: Tambah method pada model plan.dart</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_3.png)
+
+<h4>Langkah 4: Pindah ke PlanScreen</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_4.png)
+
+<h4>Langkah 5: Edit method _buildAddTaskButton</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_5.png)
+
+<h4>Langkah 6: Edit method _buildTaskTile</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_6.png)
+
+<h4>Langkah 7: Edit _buildList</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_7.png)
+
+<h4>Langkah 8: Tetap di class PlanScreen</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_8.png)
+
+<h4>Langkah 9: Tambah widget SafeArea</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_9.gif)
