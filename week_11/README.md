@@ -86,6 +86,8 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/praktikum_2_langkah_1.png)
 
+- Pada langkah pertama inheritedWidget terletak pada extends InheritedNotifier<ValueNotifier<Plan>>, InheritedNotifier berguna dalam membagikan value variabel kesetiap widget yang terkait, dan dapat melakukan perubahan keseluruh widget terkait saat value variabel tersebut diubah pada suatu widget, sehingga value terjadi secara menyeluruh tidak hanya pada satu widget saja, seperti halnya penggunaan variabel global.
+
 <h4>Langkah 2: Edit main.dart</h4>
 
 ![Screenshot flutter](docs/praktikum_2_langkah_2.png)
@@ -93,6 +95,8 @@ Nama : Raden Rizki
 <h4>Langkah 3: Tambah method pada model plan.dart</h4>
 
 ![Screenshot flutter](docs/praktikum_2_langkah_3.png)
+
+- Pada kode diatas akan dilakukan pengambilan data tasks yang memiliki kondisi status variabel complete pada task, jika statusnya true maka akan dihitung dalam tasks, kemudian data tasks akan diambil panjang atau jumlah data yang memenuhi kondisi. Pada variabel selanjutnya akan memiliki pesan mengenai jumlah tasks yang sudah diselesaikan. Dengan kedua variabel tersebut akan memudahkan dalam melihat status rencana atau tasks yang sudah diselesaikan atau checked.
 
 <h4>Langkah 4: Pindah ke PlanScreen</h4>
 
@@ -116,4 +120,8 @@ Nama : Raden Rizki
 
 <h4>Langkah 9: Tambah widget SafeArea</h4>
 
+![Screenshot flutter](docs/praktikum_2_langkah_9.png)
+
 ![Screenshot flutter](docs/praktikum_2_langkah_9.gif)
+
+- Aplikasi master_plan sudah dapat menampilkan status berapa tasks yang sudah diselesaikan atau checked dari keseluruhan tasks yang sudah dibuat atau ditambakan.
