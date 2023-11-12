@@ -14,6 +14,14 @@ class _PlanScreenState extends State<PlanScreen> {
   Plan get plan => widget.plan;
   late ScrollController scrollController;
 
+  late Plan _plan;
+
+  set plan(Plan plan) {
+    setState(() {
+      _plan = plan;
+    });
+  }
+
   @override
   void initState() {
     super.initState();
@@ -68,7 +76,7 @@ class _PlanScreenState extends State<PlanScreen> {
             name: currentPlan.name,
             tasks: updatedTasks,
           );
-        plan = Plan(
+        _plan = Plan(
           name: currentPlan.name,
           tasks: updatedTasks,
         );
