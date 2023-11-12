@@ -125,3 +125,67 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_2_langkah_9.gif)
 
 - Aplikasi master_plan sudah dapat menampilkan status berapa tasks yang sudah diselesaikan atau checked dari keseluruhan tasks yang sudah dibuat atau ditambakan.
+
+#
+
+<h3>Praktikum 3: Membuat State di Multiple Screens</h3>
+
+#
+
+<h4>Langkah 1: Edit PlanProvider</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_1.png)
+
+<h4>Langkah 2: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_2.png)
+
+<h4>Langkah 3: Edit plan_screen.dart</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_3.png)
+
+<h4>Langkah 4: Error</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_4.png)
+
+<h4>Langkah 5: Tambah getter Plan</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_5.png)
+
+<h4>Langkah 6: Method initState()</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_6.png)
+
+<h4>Langkah 7: Widget build</h4>
+
+[Kode Program Langkah 7](/week_11/src/master_plan/lib/views/plan_screen.dart)
+
+<h4>Langkah 8: Edit _buildTaskTile</h4>
+
+[Kode Program Langkah 8](/week_11/src/master_plan/lib/views/plan_screen.dart)
+
+<h4>Langkah 9: Buat screen baru</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_9.png)
+
+![Screenshot flutter](docs/praktikum_3_langkah_9_1.png)
+
+<h4>Langkah 10: Pindah ke class _PlanCreatorScreenState</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_10.png)
+
+<h4>Langkah 11: Pindah ke method build</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_11.png)
+
+<h4>Langkah 12: Buat widget _buildListCreator</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_12.png)
+
+<h4>Langkah 13: Buat void addPlan()</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_13.png)
+
+<h4>Langkah 14: Buat widget _buildMasterPlans()</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_14.png)
