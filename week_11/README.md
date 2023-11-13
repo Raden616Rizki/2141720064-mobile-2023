@@ -164,6 +164,8 @@ Nama : Raden Rizki
 
 [Kode Program Langkah 8](/week_11/src/master_plan/lib/views/plan_screen.dart)
 
+- Error index out of range dapat diselesaikan dengan merubah inisialisasi variabel Plan currentPlan = plan; pada widget _buildAddTaskButton dan _buildTaskTile dengan posisi setelah planIndex dengan inisialisasi Plan currentPlan = planNotifier.value[planIndex];
+
 <h4>Langkah 9: Buat screen baru</h4>
 
 ![Screenshot flutter](docs/praktikum_3_langkah_9.png)
@@ -189,3 +191,13 @@ Nama : Raden Rizki
 <h4>Langkah 14: Buat widget _buildMasterPlans()</h4>
 
 ![Screenshot flutter](docs/praktikum_3_langkah_14.png)
+
+![Screenshot flutter](docs/praktikum_3_langkah_14.gif)
+
+- Pada aplikasi tahap ini sudah dapat membuat list plan dengan setiap plannya dapat menambahkan tasks seperti yang dilakukan pada dua praktikum sebelumnya. Pada praktikum ini juga saat melakukan check pada PlanScreen maka status dan informasi dalam PlanCreatorScreen juga akan diperbaharui contohnya status checked atau tasks apa saja yang sudah diselesaikan pada PlanScreen juga akan ditampilkan dengan data yang sama di PlanCreatorScreen dengan value yang dapat berbeda di list plan halaman PlanCreatorScreen.
+
+<h4>Penjelasan Praktikum 3</h4>
+
+![Ilustrasi Praktikum 3](https://jti-polinema.github.io/flutter-codelab/11-basic-state/img//9ce81bcd2817adc8.png)
+
+- Hal pertama yang akah dilakukan aplikasi adalah dengan mengembalikan objek PlanProvider yang mana juga akan menampilkan PlanCreatorScreen, pada halaman ini dapat menambahkan plan dengan menginputkan judul atau text plan kemudian dengan enter maka akan menambahkan plan kedalam list. Selanjunya dengan klik salah satu plan dalam list maka akan dinavigasi ke halaman PlanScreen, halaman ini merupakan halaman yang sudah dibuat pada praktikum satu sampai dua. Pada halaman ini dapat menambahkan list task baru, yang selanjutnya task ini dapat diberi deskripsi berupa teks dan dapat dilakukan check untuk menyatakan tugas sudah diselesaikan, status tasks yang sudah terselesaikan akan diperbarui baik di PlanScreen maupun pada halaman PlanCreatorScreen.

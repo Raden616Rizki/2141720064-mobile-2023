@@ -14,14 +14,6 @@ class _PlanScreenState extends State<PlanScreen> {
   Plan get plan => widget.plan;
   late ScrollController scrollController;
 
-  late Plan _plan;
-
-  set plan(Plan plan) {
-    setState(() {
-      _plan = plan;
-    });
-  }
-
   @override
   void initState() {
     super.initState();
@@ -42,7 +34,7 @@ class _PlanScreenState extends State<PlanScreen> {
     ValueNotifier<List<Plan>> plansNotifier = PlanProvider.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text(_plan.name)),
+      appBar: AppBar(title: Text(plan.name)),
       body: ValueListenableBuilder<List<Plan>>(
         valueListenable: plansNotifier,
         builder: (context, plans, child) {
@@ -66,9 +58,9 @@ class _PlanScreenState extends State<PlanScreen> {
     return FloatingActionButton(
       child: const Icon(Icons.add),
       onPressed: () {
-        Plan currentPlan = plan;
         int planIndex =
-            planNotifier.value.indexWhere((p) => p.name == currentPlan.name);
+            planNotifier.value.indexWhere((p) => p.name == plan.name);
+        Plan currentPlan = planNotifier.value[planIndex];
         List<Task> updatedTasks = List<Task>.from(currentPlan.tasks)
           ..add(const Task());
         planNotifier.value = List<Plan>.from(planNotifier.value)
@@ -76,10 +68,6 @@ class _PlanScreenState extends State<PlanScreen> {
             name: currentPlan.name,
             tasks: updatedTasks,
           );
-        _plan = Plan(
-          name: currentPlan.name,
-          tasks: updatedTasks,
-        );
       },
     );
   }
@@ -100,9 +88,9 @@ class _PlanScreenState extends State<PlanScreen> {
       leading: Checkbox(
           value: task.complete,
           onChanged: (selected) {
-            Plan currentPlan = plan;
-            int planIndex = planNotifier.value
-                .indexWhere((p) => p.name == currentPlan.name);
+            int planIndex =
+                planNotifier.value.indexWhere((p) => p.name == plan.name);
+            Plan currentPlan = planNotifier.value[planIndex];
             planNotifier.value = List<Plan>.from(planNotifier.value)
               ..[planIndex] = Plan(
                 name: currentPlan.name,
@@ -116,9 +104,9 @@ class _PlanScreenState extends State<PlanScreen> {
       title: TextFormField(
         initialValue: task.description,
         onChanged: (text) {
-          Plan currentPlan = plan;
           int planIndex =
-              planNotifier.value.indexWhere((p) => p.name == currentPlan.name);
+              planNotifier.value.indexWhere((p) => p.name == plan.name);
+          Plan currentPlan = planNotifier.value[planIndex];
           planNotifier.value = List<Plan>.from(planNotifier.value)
             ..[planIndex] = Plan(
               name: currentPlan.name,
