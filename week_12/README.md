@@ -13,3 +13,11 @@ Nama : Raden Rizki
 <h4>Langkah 1: Buat Project Baru</h4>
 
 ![Screenshot flutter](docs/praktikum_1_langkah_1.png)
+
+<h4>Langkah 2: Cek file pubspec.yaml</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_2.png)
+
+<h4>Langkah 3: Buka file main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_3.png)
