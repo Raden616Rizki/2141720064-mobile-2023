@@ -26,7 +26,14 @@ Nama : Raden Rizki
 
 <h4>Langkah 4: Tambah method getData()</h4>
 
-[Kode Program main.dart](/week_12/src/books/lib/main.dart)
+![Screenshot flutter](docs/praktikum_1_langkah_4_code.png)
 
 ![Screenshot flutter](docs/praktikum_1_langkah_4.png)
 
+<h4>Langkah 5: Tambah kode di ElevatedButton</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_5_code.png)
+
+![Screenshot flutter](docs/praktikum_1_langkah_5.gif)
+
+- Setelah data JSON dari API diberikan ke client, data tersebut dirubah terlebih dahulu dirubah ke tipe data String dengan menggunakan method toString(), sedangkan method substring(0, 450) untuk mengambil karakter dari indeks 0 sampai 450. Kemudian catchError() berguna untuk menangani error yang terjadi saat proses asynchronous, dalam kode ini menghasilkan result berupa 'An error occurred'.
