@@ -20,4 +20,13 @@ Nama : Raden Rizki
 
 <h4>Langkah 3: Buka file main.dart</h4>
 
-![Screenshot flutter](docs/praktikum_1_langkah_3.png)
+[Kode Program main.dart](/week_12/src/books/lib/main.dart)
+
+![Screenshot flutter](docs/praktikum_1_langkah_3.gif)
+
+<h4>Langkah 4: Tambah method getData()</h4>
+
+[Kode Program main.dart](/week_12/src/books/lib/main.dart)
+
+![Screenshot flutter](docs/praktikum_1_langkah_4.png)
+
