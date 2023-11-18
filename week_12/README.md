@@ -37,3 +37,29 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_1_langkah_5.gif)
 
 - Setelah data JSON dari API diberikan ke client, data tersebut dirubah terlebih dahulu dirubah ke tipe data String dengan menggunakan method toString(), sedangkan method substring(0, 450) untuk mengambil karakter dari indeks 0 sampai 450. Kemudian catchError() berguna untuk menangani error yang terjadi saat proses asynchronous, dalam kode ini menghasilkan result berupa 'An error occurred'.
+
+#
+
+<h3>Praktikum 2: Menggunakan await/async untuk menghindari callbacks</h3>
+
+#
+
+<h4>Langkah 1: Buka file main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_1.png)
+
+- Pada langkah 1 tersebut dibuat 3 future function yang masing-masing akan mengembailkan nilai integer dengan bobot dari 1, 2 dan 3 dari ketiga function tersebut. Pada setiap function tersebut akan dijalankan atau mengalami delay selama 3 detik sebelum akhirnya mereturn value.
+
+<h4>Langkah 2: Tambah method count()</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_2.png)
+
+- Pada kode program diatas function yang sudah dibuat pada langkah pertama dipanggil secara bergantian dan menambahkan setiap value yang direturn setiap function ke variabel total. Variabel total ini yang akan digunakan untuk memperbarui state dengan result berupa konversi string dari total.
+
+<h4>Langkah 3: Panggil count()</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_3.png)
+
+<h4>Langkah 4: Run</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_4.gif)
