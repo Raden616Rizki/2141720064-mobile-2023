@@ -63,3 +63,28 @@ Nama : Raden Rizki
 <h4>Langkah 4: Run</h4>
 
 ![Screenshot flutter](docs/praktikum_2_langkah_4.gif)
+
+#
+
+<h3>Praktikum 3: Menggunakan Completer di Future</h3>
+
+#
+
+<h4>Langkah 1: Buka main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_1.png)
+
+<h4>Langkah 2: Tambahkan variabel dan method</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_2.png)
+
+- Pada langkah kedua ini dibuat terlebih variabel late dengan tipe Completer, nantinya varibel completer ini akan diberi nilai melalui function getNumber(). Selanjutnya terdapat function calculate() yang memiliki delay waktu untuk menjalankan function ini selama 5 detik, yang selanjutnya akan menyelesaikan future dengan value 42. Dan terakhir terdapat function getNumber(), function ini melakukan inisialisasi pada variabel completer sebelumnya, kemudian memanggil function calculate untuk menyelsaikan future, value yang diterima dari calculate ini kemudian akan dikembalikan ke pemanggil function dengan mengakses value dari completer.future.
+
+<h4>Langkah 3: Ganti isi kode onPressed()</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_3.png)
+
+<h4>Langkah 4: Run</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_4.gif)
+
