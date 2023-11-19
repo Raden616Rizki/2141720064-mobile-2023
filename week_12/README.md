@@ -100,3 +100,20 @@ Nama : Raden Rizki
 
 - Hal yang berbeda dari langkah 2 dengan langkah 5 -- 6 adalah pada langkah diterapkan try dan catch untuk menangai jika pada proses try terdapat error maka catch lah yang akan dijalankan. Jika pada try akan menyelesaikan future dengan memberikannya value, maka pada catch ini akan berupa status error, sehingga pada langkah keenam, saat proses getNumber() menghasilkan error, value variabel result akan diset 'An error occurred'.
 
+#
+
+<h3>Praktikum 4: Memanggil Future secara paralel</h3>
+
+#
+
+<h4>Langkah 1: Buka file main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_1.png)
+
+<h4>Langkah 2: Edit onPressed()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_2.png)
+
+<h4>Langkah 3: Run</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_3.gif)
