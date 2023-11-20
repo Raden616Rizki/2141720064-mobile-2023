@@ -117,3 +117,11 @@ Nama : Raden Rizki
 <h4>Langkah 3: Run</h4>
 
 ![Screenshot flutter](docs/praktikum_4_langkah_3.gif)
+
+<h4>Langkah 4: Ganti variabel futureGroup</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_4.png)
+
+![Screenshot flutter](docs/praktikum_4_langkah_4.gif)
+
+- Pada langkah pertama setiap setiap function perlu ditambahkan terlebih dahulu sebagai future kedalam objek futureGroup dan perlu menggunakan method close agar objek tidak dapat menambahkan future lagi, yang selanjutnya setiap function ini akan dijalankan, barulah method then dijalankan. Sedangkan pada langkah keempat setiap function langsung dijalankan dan ditunggu hasilnya, sama seperti futureGroup Future.wait juga akan menghasilkan data bertipe list.
