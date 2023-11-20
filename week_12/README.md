@@ -182,7 +182,7 @@ Nama : Raden Rizki
 
 <h4>Langkah 5: Isi kode geolocation.dart</h4>
 
-[Kode Program kode geolocation.dart](/week_12/src/books/lib/geolocation.dart)
+[Kode Program kode geolocation.dart](/week_12/src/books/lib/view/geolocation.dart)
 
 <h4>Langkah 6: Edit main.dart</h4>
 
@@ -252,4 +252,27 @@ Nama : Raden Rizki
 
 <h4>Langkah 2: Isi kode navigation_first.dart</h4>
 
-[Kode Program navigation_first.dart](/week_12/src/books/lib/navigation_first.dart)
+[Kode Program navigation_first.dart](/week_12/src/books/lib/view/navigation_first.dart)
+
+<h4>Langkah 3: Tambah method di class _NavigationFirstState</h4>
+
+![Screenshot flutter](docs/praktikum_8_langkah_3.png)
+
+<h4>Langkah 4: Buat file baru navigation_second.dart</h4>
+
+![Screenshot flutter](docs/praktikum_8_langkah_4.png)
+
+<h4>Langkah 5: Buat class NavigationSecond dengan StatefulWidget</h4>
+
+[Kode Program navigation_first.dart](/week_12/src/books/lib/view/navigation_second.dart)
+
+<h4>Langkah 6: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_8_langkah_6.png)
+
+<h4>Langkah 7: Run</h4>
+
+![Screenshot flutter](docs/praktikum_8_langkah_7.gif)
+
+- Saat Change Color diklik maka selanjutkan halaman akan diarahkan ke halaman NavigationSecond. Di halaman NavigationSecond ini saat button warna diklik, maka state color akan berubah sesuai deskripsi dan aksi yang dilakukan di dalam blok ElevatedButton, kemudian state color ini akan dikembalikan dan pop ke halaman NavigationFirst dengan state color yang digunakan untuk latar sesuai warna yang terpilih di NavigationSecond.
+
