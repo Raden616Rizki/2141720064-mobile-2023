@@ -125,3 +125,23 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_4_langkah_4.gif)
 
 - Pada langkah pertama setiap setiap function perlu ditambahkan terlebih dahulu sebagai future kedalam objek futureGroup dan perlu menggunakan method close agar objek tidak dapat menambahkan future lagi, yang selanjutnya setiap function ini akan dijalankan, barulah method then dijalankan. Sedangkan pada langkah keempat setiap function langsung dijalankan dan ditunggu hasilnya, sama seperti futureGroup Future.wait juga akan menghasilkan data bertipe list.
+
+#
+
+<h3>Praktikum 5: Menangani Respon Error pada Async Code</h3>
+
+#
+
+<h4>Langkah 1: Buka file main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_1.png)
+
+<h4>Langkah 2: ElevatedButton</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_2.png)
+
+<h4>Langkah 3: Run</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_3.png)
+
+![Screenshot flutter](docs/praktikum_5_langkah_3.gif)
