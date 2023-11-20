@@ -145,3 +145,15 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_5_langkah_3.png)
 
 ![Screenshot flutter](docs/praktikum_5_langkah_3.gif)
+
+<h4>Langkah 4: Tambah method handleError()</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_4.png)
+
+![Screenshot flutter](docs/praktikum_5_langkah_4_1.png)
+
+![Screenshot flutter](docs/praktikum_5_langkah_4_2.png)
+
+![Screenshot flutter](docs/praktikum_5_langkah_4.gif)
+
+- Perbedaan antara langkah 1 dengan langkah 4 adalah pada langkah pertama penanganan error dilakukan pada ElevatedButton, sedangkan pada langkah keempat penanganan error ditangani oleh function handleError() terlebih dahulu sehingga pada ElevatedButton hanya perlu menjalankan function handleError() tanpa harus menindaklanjuti hasil dari function yang dipanggil. Sedangkan untuk skema penanganan error masih sama antara keduanya.
