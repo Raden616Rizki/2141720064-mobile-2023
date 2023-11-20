@@ -182,4 +182,26 @@ Nama : Raden Rizki
 
 <h4>Langkah 5: Isi kode geolocation.dart</h4>
 
-![Screenshot flutter](docs/praktikum_6_langkah_5.png)
+[Kode Program kode geolocation.dart](/week_12/src/books/lib/geolocation.dart)
+
+<h4>Langkah 6: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_6.png)
+
+<h4>Langkah 7: Run</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_7.gif)
+
+<h4>Langkah 8: Tambahkan animasi loading</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_8.png)
+
+![Screenshot flutter](docs/praktikum_6_langkah_8_1.png)
+
+![Screenshot flutter](docs/praktikum_6_langkah_8.gif)
+
+![Screenshot flutter](docs/praktikum_6_langkah_8_2.png)
+
+![Screenshot flutter](docs/praktikum_6_langkah_8_3.png)
+
+- Lokasi saat ini dapat ditampilkan namun perlu untuk mengizinkan akses tersebut saat run melalui browser layaknya saat di android namun jika tetap belum diizinkan maka animasi loading akan terus terjadi.
