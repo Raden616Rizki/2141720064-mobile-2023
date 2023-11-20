@@ -264,7 +264,7 @@ Nama : Raden Rizki
 
 <h4>Langkah 5: Buat class NavigationSecond dengan StatefulWidget</h4>
 
-[Kode Program navigation_first.dart](/week_12/src/books/lib/view/navigation_second.dart)
+[Kode Program navigation_second.dart](/week_12/src/books/lib/view/navigation_second.dart)
 
 <h4>Langkah 6: Edit main.dart</h4>
 
@@ -276,3 +276,34 @@ Nama : Raden Rizki
 
 - Saat Change Color diklik maka selanjutkan halaman akan diarahkan ke halaman NavigationSecond. Di halaman NavigationSecond ini saat button warna diklik, maka state color akan berubah sesuai deskripsi dan aksi yang dilakukan di dalam blok ElevatedButton, kemudian state color ini akan dikembalikan dan pop ke halaman NavigationFirst dengan state color yang digunakan untuk latar sesuai warna yang terpilih di NavigationSecond.
 
+#
+
+<h3>Praktikum 9: Memanfaatkan async/await dengan Widget Dialog</h3>
+
+#
+
+<h4>Langkah 1: Buat file baru navigation_dialog.dart</h4>
+
+![Screenshot flutter](docs/praktikum_9_langkah_1.png)
+
+<h4>Langkah 2: Isi kode navigation_dialog.dart</h4>
+
+![Screenshot flutter](docs/praktikum_9_langkah_2.png)
+
+<h4>Langkah 3: Tambah method async</h4>
+
+[Kode Program navigation_dialog.dart](/week_12/src/books/lib/view/navigation_dialog.dart)
+
+<h4>Langkah 4: Panggil method di ElevatedButton</h4>
+
+![Screenshot flutter](docs/praktikum_9_langkah_4.png)
+
+<h4>Langkah 5: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_9_langkah_5.png)
+
+<h4>Langkah 6: Run</h4>
+
+![Screenshot flutter](docs/praktikum_9_langkah_6.gif)
+
+- Saat button pada popup atau dialog diklik maka warna latar halaman akan ikut berubah sesuai warna yang dipilih, hal ini dapat terjadi karena pada method shwoColor setiap TextButton akan merubah state dari color dan akan mengembalikan value dari state color tersebut, sehinga akan merubah warna latar halaman yang sedari awal menggunakan variabel color sebagai value.
