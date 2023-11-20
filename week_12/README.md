@@ -157,3 +157,29 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_5_langkah_4.gif)
 
 - Perbedaan antara langkah 1 dengan langkah 4 adalah pada langkah pertama penanganan error dilakukan pada ElevatedButton, sedangkan pada langkah keempat penanganan error ditangani oleh function handleError() terlebih dahulu sehingga pada ElevatedButton hanya perlu menjalankan function handleError() tanpa harus menindaklanjuti hasil dari function yang dipanggil. Sedangkan untuk skema penanganan error masih sama antara keduanya.
+
+#
+
+<h3>Praktikum 6: Menggunakan Future dengan StatefulWidget</h3>
+
+#
+
+<h4>Langkah 1: install plugin geolocator</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_1.png)
+
+<h4>Langkah 2: Tambah permission GPS</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_2.png)
+
+<h4>Langkah 3: Buat file geolocation.dart</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_3.png)
+
+<h4>Langkah 4: Buat StatefulWidget</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_4.png)
+
+<h4>Langkah 5: Isi kode geolocation.dart</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_5.png)
