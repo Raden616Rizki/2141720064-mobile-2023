@@ -231,3 +231,11 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_7_langkah_4.gif)
 
 - Dalam hal UI tidak ada yang berubah dari praktikum sebelumnya, hasil yang ditampilkan masih sama, hanya terdapat perbedaan dalam permission, jika praktikum sebelumnya aplikasi akan meminta izin untuk mengakses lokasi, pada praktikum saat ini hal ini tidak ada, karena method requestPermission() pada praktikum sebelumnya sudah dikomen. Hal menarik pada praktikum ini, tidak perlu menggunakan string format untuk memberikan keterangan pada value seperti latitude dan longitude.
+
+<h4>Langkah 5: Tambah handling error</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_5.png)
+
+![Screenshot flutter](docs/praktikum_7_langkah_5.gif)
+
+- Hasil masih sama seperti langkah sebelumnya, hal ini dikarenakan tidak ada error yang terjadi, sehingga error handling dengan mengecek kondisi snapshot.hasError ini bernilai false, dan aksi dalam blok if ini tidak dijalankan/
