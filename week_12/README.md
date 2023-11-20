@@ -205,3 +205,29 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_6_langkah_8_3.png)
 
 - Lokasi saat ini dapat ditampilkan namun perlu untuk mengizinkan akses tersebut saat run melalui browser layaknya saat di android namun jika tetap belum diizinkan maka animasi loading akan terus terjadi.
+
+#
+
+<h3>Praktikum 7: Manajemen Future dengan FutureBuilder</h3>
+
+#
+
+<h4>Langkah 1: Modifikasi method getPosition()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_1.png)
+
+<h4>Langkah 2: Tambah variabel</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_2.png)
+
+<h4>Langkah 3: Tambah initState()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_3.png)
+
+<h4>Langkah 4: Edit method build()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_4.png)
+
+![Screenshot flutter](docs/praktikum_7_langkah_4.gif)
+
+- Dalam hal UI tidak ada yang berubah dari praktikum sebelumnya, hasil yang ditampilkan masih sama, hanya terdapat perbedaan dalam permission, jika praktikum sebelumnya aplikasi akan meminta izin untuk mengakses lokasi, pada praktikum saat ini hal ini tidak ada, karena method requestPermission() pada praktikum sebelumnya sudah dikomen. Hal menarik pada praktikum ini, tidak perlu menggunakan string format untuk memberikan keterangan pada value seperti latitude dan longitude.
