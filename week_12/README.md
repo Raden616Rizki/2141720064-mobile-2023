@@ -238,4 +238,18 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/praktikum_7_langkah_5.gif)
 
-- Hasil masih sama seperti langkah sebelumnya, hal ini dikarenakan tidak ada error yang terjadi, sehingga error handling dengan mengecek kondisi snapshot.hasError ini bernilai false, dan aksi dalam blok if ini tidak dijalankan/
+- Hasil masih sama seperti langkah sebelumnya, hal ini dikarenakan tidak ada error yang terjadi, sehingga error handling dengan mengecek kondisi snapshot.hasError ini bernilai false, dan aksi dalam blok if ini tidak dijalankan.
+
+#
+
+<h3>Praktikum 8: Navigation route dengan Future Function</h3>
+
+#
+
+<h4>Langkah 1: Buat file baru navigation_first.dart</h4>
+
+![Screenshot flutter](docs/praktikum_8_langkah_1.png)
+
+<h4>Langkah 2: Isi kode navigation_first.dart</h4>
+
+[Kode Program navigation_first.dart](/week_12/src/books/lib/navigation_first.dart)
