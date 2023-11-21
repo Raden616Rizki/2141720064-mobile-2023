@@ -17,3 +17,11 @@ Nama : Raden Rizki
 <h4>Langkah 2: Buka file main.dart</h4>
 
 ![Screenshot flutter](docs/praktikum_1_langkah_2.png)
+
+<h4>Langkah 3: Buat file baru stream.dart</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_3.png)
+
+<h4>Langkah 4: Tambah variabel colors</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_4.png)
