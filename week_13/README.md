@@ -61,3 +61,11 @@ Nama : Raden Rizki
 <h4>Langkah 12: Run</h4>
 
 ![Screenshot flutter](docs/praktikum_1_langkah_12.gif)
+
+<h4>Langkah 13: Ganti isi method changeColor()</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_13.png)
+
+![Screenshot flutter](docs/praktikum_1_langkah_13.gif)
+
+- Perbedaan menggunakan listen dan await for adalah pada await for akan dilakukan perulangan dengan value yang didapat dari memanggil method getColors(), setiap value tersebut akan disimpan dalam variabel eventColor disetiap perulangannya, namun blok kode dalam for seperti setState akan dijalankan setelah proses pemanggilan method getColors() selesai dilakukan dan sudah mengembalikan nilai set yang setiap valuenya akan disimpan dalam eventColor. Sedankan listen() setiap event atau value yang sudah diterima dapat langsung digunakan dan setState dapat dijalankan tanpa perlu menunggu seluruh Stream selesai.
