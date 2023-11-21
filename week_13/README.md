@@ -25,3 +25,15 @@ Nama : Raden Rizki
 <h4>Langkah 4: Tambah variabel colors</h4>
 
 ![Screenshot flutter](docs/praktikum_1_langkah_4.png)
+
+<h4>Langkah 5: Tambah method getColors()</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_5.png)
+
+<h4>Langkah 6: Tambah perintah yield*</h4>
+
+![Screenshot flutter](docs/praktikum_1_langkah_5.png)
+
+- Kode yield* berfungsi untuk mengembalikan banyak value yang dimethod ini dihasilkan oleh streams.
+
+- Pada method getColors() ini Stream disetiap 1 detik akan mengembalikan value dari setiap indeks list colors, indeks ini dihasilkan dari t sebagai waktu (detik) modulus dari panjang list colors.
