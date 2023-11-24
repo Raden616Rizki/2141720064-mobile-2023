@@ -179,3 +179,55 @@ Nama : Raden Rizki
 ![Screenshot flutter](docs/praktikum_3_langkah_4.png)
 
 ![Screenshot flutter](docs/praktikum_3_langkah_4.gif)
+
+#
+
+<h3>Praktikum 4: Subscribe ke stream events</h3>
+
+#
+
+<h4>Langkah 1: Tambah variabel</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_1.png)
+
+<h4>Langkah 2: Edit initState()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_2.png)
+
+- Kode program langkah kedua ini memperbarui kode sebelumnya untuk pembuatan objek stream kemudian menyimpan proses listen stream kedalam variabel subscription, yang seperti praktikum sebelumnya, listen stream pada blok kode ini digunakan untuk memperbarui value dari variabel dengan event yang didapat.
+
+<h4>Langkah 3: Tetap di initState()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_3.png)
+
+<h4>Langkah 4: Tambah properti onDone()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_4.png)
+
+<h4>Langkah 5: Tambah method baru</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_5.png)
+
+<h4>Langkah 6: Pindah ke method dispose()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_6.png)
+
+- Kode subscription.cancel() diatas berfungsi untuk membatalkan proses listener yang sudah disimpan atau diwakili dalam subscription. Sehingga nilai baru akan berhenti untuk diberikan ke stream.
+
+<h4>Langkah 7: Pindah ke method build()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_7.png)
+
+<h4>Langkah 8: Edit method addRandomNumber()</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_8.png)
+
+- Langkah kedelapan ini dilakukan penambahan kondisi pada method addNumbers(), yaitu jika status numberStreamController tidak closed maka value myNum akan ditambahkan ke sink, namun jika status numberStreamController dalam status closed maka value lastNumber akan diset dengan -1.
+
+<h4>Langkah 9: Run</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_9.gif)
+
+<h4>Langkah 10: Tekan button 'Stop Subscription'</h4>
+
+![Screenshot flutter](docs/praktikum_4_langkah_10.png)
