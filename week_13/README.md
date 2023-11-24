@@ -148,3 +148,34 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/praktikum_2_langkah_15.gif)
 
+#
+
+<h3>Praktikum 3: Injeksi data ke streams</h3>
+
+#
+
+<h4>Langkah 1: Buka main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_1.png)
+
+- Langkah pertama ini membuat objek StreamTransformer dengan nama transformer. Objek ini nantinya akan digunakan untuk memanipulasi atau memfilter data pada Streams.
+
+<h4>Langkah 2: Tambahkan kode ini di initState</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_2.png)
+
+- Pada kode di atas dibuat untuk menangani aliran data dengan membuat objek StreamTransformer yang menerima data integer dan menghasilkan integer juga. Pada parameter pertama ini jika aliran data tidak menghasilkan error, maka value dari aliran data tersebut akan diperbarui dengan mengalikan value dengan 10 dan ditambahkan kembali ke aliran data. Kemudian parameter kedua akan menangani  error maka value aliran akan diperbarui menjadi -1. Dan setelah selesai, filter ini akan ditutup.
+
+<h4>Langkah 3: Tetap di initState</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_3.png)
+
+- Objek transformer yang dibuat sebelumnya digunakan disini, pada blok kode program diatas, akan dilakukan perubahan data berdasarkan parameter yang dibuat sebelumnya. Jika berjalan tanpa error maka value yang ditambahkan oleh transformer sebelumnya akan digunakan untuk memperbarui value lastNumber, sedangkan jika terdapat error maka value lastNumber akan diset dengan nilai -1.
+
+<h4>Langkah 4: Run</h4>
+
+![Screenshot flutter](docs/praktikum_3_langkah_4_error.png)
+
+![Screenshot flutter](docs/praktikum_3_langkah_4.png)
+
+![Screenshot flutter](docs/praktikum_3_langkah_4.gif)
