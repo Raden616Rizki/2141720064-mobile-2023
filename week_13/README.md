@@ -127,3 +127,24 @@ Nama : Raden Rizki
 <h4>Langkah 12: Run</h4>
 
 ![Screenshot flutter](docs/praktikum_2_langkah_12.gif)
+
+<h4>Langkah 13: Buka stream.dart</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_13.png)
+
+- Method addError() diatas digunakan untuk menambahkan error kedalam aliran data dengan pesan 'error'.
+
+<h4>Langkah 14: Buka main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_14.png)
+
+- Pada langkah ke-14 dilakukan penanganan error saat stream.listen, yaitu jika terjadi error, maka value dari variabel last number akan diset menjadi -1.
+
+<h4>Langkah 15: Edit method addRandomNumber()</h4>
+
+![Screenshot flutter](docs/praktikum_2_langkah_15.png)
+
+- Method yang dibuat di langkah ke-13 sebelumnya dipanggil dilangakah ini, yaitu metdhod addError() dengan menggunakan objek numberStream.
+
+![Screenshot flutter](docs/praktikum_2_langkah_15.gif)
+
