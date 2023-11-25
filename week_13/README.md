@@ -248,10 +248,20 @@ Nama : Raden Rizki
 
 <h4>Langkah 3: Run</h4>
 
-![Screenshot flutter](docs/praktikum_5_langkah_3.png)
-
-<h4>Langkah 3: Run</h4>
-
-![Screenshot flutter](docs/praktikum_5_langkah_3.png)
+![Screenshot flutter](docs/praktikum_5_langkah_3.jpg)
 
 - Seperti error yang terjadi pada praktikum ketiga sebelumnya yaitu error yang terjadi tersebut dikarenakan terdapat dua listener yang berjalan secara bersamaan.
+
+<h4>Langkah 4: Set broadcast stream</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_4.png)
+
+- Dengan menambahkan asBroadcastStream() dapat memungkinkan untuk menggunakan lebih dari satu listener stream secara bersamaan. Sehingga error sebelumnya dapat ditangani dengan menggunakan method asBroadcastStream() tersebut.
+
+<h4>Langkah 5: Edit method build()</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_5.png)
+
+<h4>Langkah 6: Run</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_6.gif)
