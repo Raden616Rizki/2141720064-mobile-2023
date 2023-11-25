@@ -231,3 +231,27 @@ Nama : Raden Rizki
 <h4>Langkah 10: Tekan button 'Stop Subscription'</h4>
 
 ![Screenshot flutter](docs/praktikum_4_langkah_10.png)
+
+#
+
+<h3>Praktikum 5: Multiple stream subscriptions</h3>
+
+#
+
+<h4>Langkah 1: Buka file main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_1.png)
+
+<h4>Langkah 2: Edit initState()</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_2.png)
+
+<h4>Langkah 3: Run</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_3.png)
+
+<h4>Langkah 3: Run</h4>
+
+![Screenshot flutter](docs/praktikum_5_langkah_3.png)
+
+- Seperti error yang terjadi pada praktikum ketiga sebelumnya yaitu error yang terjadi tersebut dikarenakan terdapat dua listener yang berjalan secara bersamaan.
