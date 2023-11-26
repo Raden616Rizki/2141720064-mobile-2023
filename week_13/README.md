@@ -308,3 +308,12 @@ Nama : Raden Rizki
 
 ![Screenshot flutter](docs/praktikum_6_langkah_8.gif)
 
+#
+
+<h3>Praktikum 7: BLoC Pattern</h3>
+
+#
+
+<h4>Langkah 1: Buat Project Baru</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_1.png)
