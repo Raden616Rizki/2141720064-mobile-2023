@@ -265,3 +265,46 @@ Nama : Raden Rizki
 <h4>Langkah 6: Run</h4>
 
 ![Screenshot flutter](docs/praktikum_5_langkah_6.gif)
+
+#
+
+<h3>Praktikum 6: StreamBuilder</h3>
+
+#
+
+<h4>Langkah 1: Buat Project Baru</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_1.png)
+
+<h4>Langkah 2: Buat file baru stream.dart</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_2.png)
+
+<h4>Langkah 3: Tetap di file stream.dart</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_3.png)
+
+- Method addRandomNumber() pertama-tama membuat Stream yang menghasilkan value integer baru dengan durasi satu detik, selanjutnya membuat  objek Random() dengan nama random, yang kemudian objek ini akan digunakan untuk memperoleh value integer acak dengan rentang 0 sampai dengan 9 dan disimpan dalam variabel myNum. Variabel myNum yang kemudian akan dikembalikan valuenya ke pemanggil method.
+
+<h4>Langkah 4: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_4.png)
+
+<h4>Langkah 5: Tambah variabel</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_5.png)
+
+<h4>Langkah 6: Edit initState()</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_6.png)
+
+<h4>Langkah 7: Edit method build()</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_7.png)
+
+- Pada body diatas menggunakna widget sebagai interface yang digunakan, kemudian menetapkan objek numberStream sebagai stream, selain itu initialDate juga diset ke 0. Dari aliran data yang dihasilkan oleh stream, jika terjadi error maka akan menghasilkan output di console berupa pesan 'Error!', namun jika stream tidak menghasilkan error atau memiliki data maka akan menampilkan data yang dirubah ke String dengan ukuran 96 dan memiliki posisi ditengah halaman, tapi jika stream tidak menghasilkan data apapun maka tidak akan akan menampilkan apapun juga atau menampilkan weidget kosong.
+
+<h4>Langkah 8: Run</h4>
+
+![Screenshot flutter](docs/praktikum_6_langkah_8.gif)
+
