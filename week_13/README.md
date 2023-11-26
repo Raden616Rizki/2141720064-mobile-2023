@@ -317,3 +317,59 @@ Nama : Raden Rizki
 <h4>Langkah 1: Buat Project Baru</h4>
 
 ![Screenshot flutter](docs/praktikum_7_langkah_1.png)
+
+<h4>Langkah 2: Isi kode random_bloc.dart</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_2.png)
+
+<h4>Langkah 3: Buat class RandomNumberBloc()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_3.png)
+
+<h4>Langkah 4: Buat variabel StreamController</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_4.png)
+
+<h4>Langkah 5: Buat constructor</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_5.png)
+
+<h4>Langkah 6: Buat method dispose()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_6.png)
+
+<h4>Langkah 7: Edit main.dart</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_7.png)
+
+<h4>Langkah 8: Buat file baru random_screen.dart</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_8.png)
+
+<h4>Langkah 9: Lakukan impor material dan random_bloc.dart</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_9.png)
+
+<h4>Langkah 10: Buat StatefulWidget RandomScreen</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_10.png)
+
+<h4>Langkah 11: Buat variabel</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_11.png)
+
+<h4>Langkah 12: Buat method dispose()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_12.png)
+
+<h4>Langkah 13: Edit method build()</h4>
+
+![Screenshot flutter](docs/praktikum_7_langkah_13.png)
+
+![Screenshot flutter](docs/praktikum_7_langkah_13.gif)
+
+- Di praktikum ketuju ini menerapkan konsep BLoC (Business Logic Component) yaitu dengan memisahkan bagian logika bisnis dan bagian user interface, yaitu kelas RandomNumberBloc menangani logika bisnis tersebut, sedangkan user interface akan ditangani oleh kelas RandomScreen. 
+
+- RandomNumberBloc memiliki dua streamController, streamController pertama yaitu _generateRandomController yang menangani input yang diberikan namun akan menghasilkan void seperti saat onpressed dilakukan di kelas RandomScreen maka akan menggunakan method generateRandom dengan argument null dan stramController kedua yaitu _randomNumberController yang akan menambahkan value integer baru ke stream, jika kelas mendeteksi terdapat inputan baru, maka value random baru akan dijadikan berupa output dengan menambahkannya ke aliran data atau strema. 
+
+- Dan untuk perihal tampilan yaitu kelas RandomScreen akan membuat objek untuk kelas RandomNumberBloc yang nantinya dapat mentrigger dengan onpress untuk memperoleh value baru yang akan ditampilkan di user interface. Sehingga RandomScreen hanya menampilkan data yang terdapat di stream dan RandomNumberBloc yang melakukan operasi logika untuk menambahkan value random baru ke stream.
